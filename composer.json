@@ -1,0 +1,23 @@
+{
+    "name": "rockdrive/test",
+    "description": "Тестовый пакет",
+    "type": "project",
+    "authors": [
+        {
+            "name": "RockDrive",
+            "email": "m-shamil-92@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "ctrlv\\HelloWorld\\": "src/"
+        }
+    }
+}
